@@ -13,6 +13,7 @@
 		667224BC24A0CF91008C3245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667224BA24A0CF91008C3245 /* Main.storyboard */; };
 		667224BE24A0CF93008C3245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667224BD24A0CF93008C3245 /* Assets.xcassets */; };
 		667224C124A0CF93008C3245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667224BF24A0CF93008C3245 /* LaunchScreen.storyboard */; };
+		667224C924A0E21A008C3245 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667224C824A0E21A008C3245 /* DesignView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		667224BD24A0CF93008C3245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667224C024A0CF93008C3245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		667224C224A0CF93008C3245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667224C824A0E21A008C3245 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				667224BD24A0CF93008C3245 /* Assets.xcassets */,
 				667224BF24A0CF93008C3245 /* LaunchScreen.storyboard */,
 				667224C224A0CF93008C3245 /* Info.plist */,
+				667224C824A0E21A008C3245 /* DesignView.swift */,
 			);
 			path = "login page";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667224C924A0E21A008C3245 /* DesignView.swift in Sources */,
 				667224B924A0CF91008C3245 /* ViewController.swift in Sources */,
 				667224B524A0CF91008C3245 /* AppDelegate.swift in Sources */,
 				667224B724A0CF91008C3245 /* SceneDelegate.swift in Sources */,
@@ -286,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "login page/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "login page/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
